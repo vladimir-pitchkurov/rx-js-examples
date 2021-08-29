@@ -41,7 +41,9 @@ btn.addEventListener('click', () => {
 rxjsBtn.addEventListener('click', _ => {
     rxjsBtn.disabled = true;
 
+    // Stream:
     interval(1000)
+        // Operators
         .pipe(
             take(people.length),
             filter(index => people[index].age >= 18),
@@ -50,6 +52,7 @@ rxjsBtn.addEventListener('click', _ => {
                 return acc.concat(el);
             }, [])
         )
+        // Subscription
         .subscribe(res => {
                 display.textContent = res.join(', ');
             },

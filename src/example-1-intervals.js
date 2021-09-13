@@ -40,7 +40,6 @@ btn.addEventListener('click', () => {
 // RXJS example
 rxjsBtn.addEventListener('click', _ => {
     rxjsBtn.disabled = true;
-
     // Stream:
     interval(1000)
         // Operators

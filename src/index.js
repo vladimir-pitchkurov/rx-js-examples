@@ -1,2 +1,3 @@
 import './style.css';
-import './example-1-intervals';
+import './example_2_from_event';
+import './example_2_from_event_rx';

@@ -11,3 +11,13 @@ canvas {
     height: 200px;
     border: 1px solid black;
 }
+
+li {
+    padding: 10px;
+    background: rgba(128, 128, 128, 0.1);
+    color: #c71b4a;
+}
+
+li:hover {
+    background: rgba(128, 128, 128, 0.15);
+}
